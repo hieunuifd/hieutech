@@ -187,7 +187,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="file-text" class="lucide lucide-file-text w-4 h-4"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" x2="8" y1="13" y2="13"></line><line x1="16" x2="8" y1="17" y2="17"></line><line x1="10" x2="8" y1="9" y2="9"></line></svg> Tài liệu Sản phẩm
             </button>
             <button onclick="switchTab('calculator')" id="nav-calculator" class="nav-btn flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calculator" class="lucide lucide-calculator w-4 h-4"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg> Tính Camera
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calculator" class="lucide lucide-calculator w-4 h-4"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg> Tính toán lưu trữ
             </button>
             <button onclick="switchTab('lock')" id="nav-lock" class="nav-btn flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="lock" class="lucide lucide-lock w-4 h-4"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> Đánh giá Khóa & Cửa
@@ -879,14 +879,14 @@
       <!-- Calculator Tab -->
       <div id="tab-calculator" class="fade-in hidden">
         <div class="mb-8">
-          <h1 class="text-3xl font-bold text-gray-900 mb-2">Công cụ Tính toán Camera</h1>
+          <h1 class="text-3xl font-bold text-gray-900 mb-2">Công cụ Tính toán lưu trữ Camera</h1>
           <p class="text-gray-500">Ước tính dung lượng thẻ nhớ, ổ cứng cần thiết dựa trên chuẩn nén H.265.</p>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
           <div class="lg:col-span-7 bg-white rounded-2xl shadow-sm border border-gray-200 p-6 lg:p-8">
             <div class="flex gap-4 mb-8 p-1 bg-gray-100 rounded-lg">
-              <button onclick="setCalcMode('storage')" id="mode-storage" class="flex-1 py-2 px-4 text-sm font-medium rounded-md bg-white text-blue-700 shadow-sm">Tính dung lượng</button>
-              <button onclick="setCalcMode('days')" id="mode-days" class="flex-1 py-2 px-4 text-sm font-medium rounded-md text-gray-500 hover:text-gray-700">Tính thời gian</button>
+              <button onclick="setCalcMode('storage')" id="mode-storage" class="flex-1 py-2 px-4 text-sm font-medium rounded-md bg-white text-blue-700 shadow-sm">Tính theo dung lượng</button>
+              <button onclick="setCalcMode('days')" id="mode-days" class="flex-1 py-2 px-4 text-sm font-medium rounded-md text-gray-500 hover:text-gray-700">Tính theo thời gian</button>
             </div>
             <div class="space-y-6">
               <div>
